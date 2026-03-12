@@ -1,0 +1,19 @@
+# Model weights
+*.pt
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+vwen/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Large data folders
+runs/
+input_videos/
