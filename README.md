@@ -1,12 +1,12 @@
-# AI/ML Football Analysis System ⚽️
+# AI/ML Football Analysis System 
 
 This repository contains an AI-powered football analysis system that utilizes Computer Vision to track players, referees, and the football in match footage. Built using **YOLO (You Only Look Once)**, **OpenCV**, and **Python**, this system provides automated insights into player movement and match dynamics.
 
 ---
 
-## 🚀 Features
+## Features
 
--   **Object Detection**: Real-time detection of players, referees, and the ball using YOLOv8/YOLOv11.
+-   **Object Detection**: Real-time detection of players, referees, and the ball using YOLOv2626
 -   **Tracking**: Persistent tracking of individuals across frames (ByteTrack/BoTSORT compatibility).
 -   **Team Assignment**: Automated team identification based on jersey color analysis.
 -   **Ball Possession**: Logic to determine which player/team has control of the ball.
@@ -30,7 +30,7 @@ This repository contains an AI-powered football analysis system that utilizes Co
 └── README.md          # Project documentation
 ```
 
-## 📥 Installation
+##  Installation
 
 1.  **Clone the repository**:
     ```bash
@@ -43,20 +43,18 @@ This repository contains an AI-powered football analysis system that utilizes Co
     pip install ultralytics opencv-python numpy pandas scikit-learn
     ```
 
-## 🏃‍♂️ Usage
+## Usage
 
 To run the basic inference on your sample video:
 
-```bash
-python yolo_learning.py
-```
+```bash python yolo_learning.py```
 
 *Note: Ensure you have a video file located at `input_videos/sample.mp4` or update the path in the script.*
 
-## 📺 Reference
+## Reference
 
 This project is inspired by the comprehensive guide by [Code of a Programmer](https://www.youtube.com/watch?v=neBZ6huolkg).
 
-## 📄 License
+## License
 
 [MIT](LICENSE) (or your preferred license)
