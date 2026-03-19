@@ -13,14 +13,14 @@ This repository contains an AI-powered football analysis system that utilizes Co
 -   **Perspective Transformation**: Map 2D video coordinates to a top-down tactical "birds-eye" view of the pitch.
 -   **Speed & Distance Calculation**: Measure player metrics based on pitch scaling.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 -   **Language**: Python 3.x
 -   **Object Detection**: Ultralytics YOLO
 -   **Computer Vision**: OpenCV
 -   **Data Handling**: NumPy, Pandas, Scikit-learn (for jersey color clustering)
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 ├── input_videos/      # Source match footage
@@ -56,5 +56,5 @@ To run the basic inference on your sample video:
 This project is inspired by the comprehensive guide by [Code of a Programmer](https://www.youtube.com/watch?v=neBZ6huolkg).
 
 ## License
-
+  
 [MIT](LICENSE) (or your preferred license)
